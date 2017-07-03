@@ -1,0 +1,4 @@
+I did sql injection.
+THere is a problem with the line:
+conn.executescript("UPDATE users SET full_name = '%s' WHERE username = '%s'" % (name, user))
+I closed the string first,then I added false condition so we want rename bob, and then I changed the password for bob.

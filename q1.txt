@@ -1,0 +1,3 @@
+In login method, it's save a login cookie with the encoded username.
+I noticed that in login_required function in server.py, it's check if exist a 'login' cookie, if it's exist it's decode the encoded user name (it's not checking the password at all),
+if there is no such cookie, it's return the login page. So, I created cookie 'login' = encode(edward)

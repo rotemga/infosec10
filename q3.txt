@@ -1,0 +1,2 @@
+I sended a img message that in onload attribute, check if this is the first loading of the function, if so, it's loading it regular.
+Else, it's hide the img.

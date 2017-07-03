@@ -1,0 +1,2 @@
+The vulnerability is that in /join message, we can put java script code (there is no call to validate_html function), so I puted the script that create post request,
+that add message to the #general-spam channel.
